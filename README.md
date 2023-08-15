@@ -1,6 +1,6 @@
 # rust
 
-# Compile one file with rustc
+# compile one file with rustc
 rustc <file_name>.rs
 
 # create a new project with cargo
@@ -17,3 +17,10 @@ cargo fmt
 
 # check the code
 cargo check
+
+# install some dependencies
+cargo install <dependency_name>
+
+# auto run the code when the file is changed
+cargo install cargo-watch
+cargo watch -x run
